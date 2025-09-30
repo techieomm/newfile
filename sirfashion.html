@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            height:500px;
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            margin-top: 20px;
+            grid-gap:5px;
+        }
+        .women{
+            background-image: url(https://imgs.search.brave.com/wh9rSYrbRQvGix34drLONo0cVbqjtCssaqWvTFbfpwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubWVlc2hvLmNv/bS9pbWFnZXMvcHJv/ZHVjdHMvNDI0OTMx/NTMyL25qMGNtXzQw/MC53ZWJw);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: .6;
+        }
+        .cardtitle{
+            display: flex;
+            color: beige;
+            justify-content: center;
+            align-content: center;
+            font-family:'Times New Roman';
+            font-size: 20px;
+            color: rgb(231, 62, 70);
+
+
+        }
+        button{
+            width: 200px;
+            height: 30px;
+            background-color: aqua;
+            border: none;
+        }
+        .men{
+            background-image: url(https://imgs.search.brave.com/tDoAkykE95HlGujY3UQJ4qzTRYWKlYj-20yMcoUmh0g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuemFyYS5uZXQv/YXNzZXRzL3B1Ymxp/Yy9jNzgwLzgxMDYv/ZDUxNjQ3Yjc5NWM5/LzA5YzIwNDgyYmFh/Yi8wNjA4NTMyMzQw/MC1hMS8wNjA4NTMy/MzQwMC1hMS5qcGc_/dHM9MTc1ODgwODc0/NjM4MSZ3PTQ2Ng);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: .6;
+        }
+        .kids{
+            background-image: url(https://imgs.search.brave.com/RsJlzyFmE34-xpvxaiQ8_zx0E9H9Oe7Tan5JMOxGo_c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFMVlN6YVA0NEwu/anBn);            
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: .6;
+        }
+        .women:hover{
+            opacity: 1;
+            transition: ease-out 0.5s;
+        }
+        .men:hover{
+            opacity: 1;
+            transition: ease-out 0.5s;
+        }
+        .kids:hover{
+            opacity: 1;
+            transition: ease-out 0.5s;
+        }
+        span{
+            justify-content: center;
+            align-items: center;
+        }
+        .headd{
+            display: flex;
+
+        }
+        header{
+                background-color: rgb(231, 176, 176);
+                display:flex;
+                justify-content: space-between;
+                font-size: 15px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                padding: 10px;
+                position:sticky;
+                top:10px;
+           }
+           .Sign{
+                color: red;
+                height: 20px;
+           }
+        
+    </style>
+</head>
+<header>
+        <div class="headd">
+            <span>
+                <strong style="color: red;">THE GIFT HUB</strong>
+            </span>
+        </div>
+        <div>
+            <nav>
+                <span>Home</span>
+                <span>Women</span>
+                <span>Men</span>
+                <span>Kids</span>
+                <span>Know More</span>
+            </nav>
+        </div>
+        <div class="Sign">
+            Sign in
+        </div>
+    </header>
+<body>
+    <section>
+        <main>
+            <div class="women">
+                <div class="card">
+                    <div class="cardtitle">
+                        <h1 style="font-size: 100px;" color="red">Women</h1>
+                    </div>
+                    <div class="cardfooter">
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="men">
+                <div class="card">
+                    <div class="cardtitle">
+                        <h1 style="font-size: 100px;" color="red">Men</h1>
+                    </div>
+                    <div class="cardfooter">
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="kids">
+                <div class="card">
+                    <div class="cardtitle">
+                    <h1 style="font-size: 100px;" color="red">Kids</h1>
+                    </div>
+                    <div class="cardfooter">
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </section>
+</body>
+</html>
